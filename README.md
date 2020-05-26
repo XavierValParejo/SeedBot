@@ -31,14 +31,15 @@ A 2D simulation in pygame featuring A star and PPT path plannig in an occupancy 
 - Matplotlib
 
 ## Usage
-To launch the 2D Seedbot simulation you just need to get all the files and launch the game.py 
-
+To launch the 2D Seedbot simulation you just need to get all the files and launch the game.py </br>
+Do you want to use the OGM or predefined .txt map?
+For OGM go to line 215 and set 'mapp' to 1, for .txt set 'mapp' as 2.</br>
 What if I want to make another map?
 You need a txt like 'mesures.txt' with a full circle of data.
 
 Interested in changing the starting and finish points? 
-For the starting point go to game.py and change lines 32 and 33 although we reccomend to keep it like this.
-For the final point change lines 34 and 35.
+For the starting point go to game.py and change lines 36 and 37 for OGM although we reccomend to keep it like this.
+For the final point change lines 38 and 39. Please use low values with the OGM, there's a problem with larger values, we're deeply sorry.
 
 ## Mapping
 Our idea for the physical robot was to get our data stored in a txt where we should find (distance, alfa) and we'd have every possible entry to make a full circle.
